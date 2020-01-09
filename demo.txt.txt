@@ -1,0 +1,12 @@
+{
+  "name": [
+    { "name": "Paul" },
+    { "name": "Andrew" },
+    { "name":"Alexis" }
+  ],
+  "mail": [
+    { "id":"paul@gmail.com" },
+    {"mail":"andrew99@gmail.com"},
+    {"mail":"alexis@yahoo.ro"}
+  ]
+}

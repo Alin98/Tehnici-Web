@@ -1,0 +1,122 @@
+body
+{
+	padding: 0;
+	text-align: center;
+	background:linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url("a.jpg");
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+	background-attachment: fixed;
+	height: 100%;
+	width: 100%;
+}
+.val_error
+{
+	color: #FF1F1F;
+}
+.text
+{
+	width: 40%;
+	background:transparent;
+	border: none;
+	outline: none;
+	color: white;
+	font-size: 20px;
+	margin-bottom: 16px;
+	margin-right: 4px;
+	margin-left: 25%;
+
+	
+}
+.button
+{
+	color: white
+	margin-left: 25%;
+	font-size: 10px;
+}
+.contact-title
+{
+	color:#ffc922;
+	text-transform: uppercase;
+}
+.form
+{
+	margin-top: 50px;
+	transition: all 4s ease-in-out;
+}
+.form-control
+{
+	width: 40%;
+	background:transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	color: white;
+	font-size: 20px;
+	margin-bottom: 16px;
+	margin-right: 4px;
+}
+input
+{
+height: 45px;
+}
+form .submit
+{
+	background:#fcc200;
+	border-color:#fcc200;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+}
+form .submit:hover
+{
+	cursor: pointer;
+}
+
+@media screen and (max-width:375px) and (max-height: 815px)
+{
+.contact-title
+{
+	color:#ffc922;
+	text-transform: uppercase;
+	margin-top: 5%;
+	text-align: center;
+	font-size: 25px;
+
+}
+.form
+{
+	margin-top: 40px;
+	transition: all 4s ease-in-out;
+}
+.form-control
+{
+	margin-top: 20px;
+	width: 100%;
+	background:transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	color: white;
+	font-size: 2em;
+	margin-bottom: 25px;
+}
+input
+{
+height: 45px;
+}
+form .submit
+{
+	background:#fcc200;
+	border-color:#fcc200;
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 80px;
+	margin-top: 20px;
+
+}
+}
+
